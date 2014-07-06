@@ -138,7 +138,8 @@ bool PraticusQuaero::ExtractQuaeroFromImage( string filePath )
 	//all OK, create a cotour handlers
 	SubQuaero* parent = new SubQuaero();
 	parent->m_contour = parentContour;
-	//parent->
+	parent->m_position = QUAERO_PARENT_CONTOUR;
+	//parent->m_contourMoments
 
 
 
